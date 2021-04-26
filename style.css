@@ -1,0 +1,139 @@
+@import url('https//fonts.googleapis.com/css2?family=open+Sans:wght@400&family=Poppins:weights@400&display=swap');
+
+body h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(257, 40%, 49%) ;
+    padding: 3em;
+    background-image: url("Copy of bg-desktop.svg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Open Sans";
+}
+
+Header img {
+    width: 15%;
+}
+
+
+main {
+    display: flex;
+    margin-top: 3em;
+
+
+}
+.mockup img {
+     width: 40%;
+     flex-basis: 50%;
+}
+.info {
+    width: 40;
+    margin: 3em auto;
+}
+.info h2 {
+    font-size: 35px;
+    color: white;
+    font-family: "Poppins";
+}
+
+.info p {
+    padding: 2em 0em;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+}
+.info button {
+    padding: 1em; 
+    border-radius: 30px;
+    width: 40%;
+    color: purple;  
+}
+
+.info button:hover {
+    background-color: purple;
+    color: white;
+}
+footer {
+    float: right;
+}
+
+footer .fab{
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+footer .fab:hover {
+    border-color: purple;
+    color: purple;
+}
+
+@media screen and (max-width:997) {
+header image{
+    width: 30%;
+}
+main {
+    display: block;
+}
+main img {
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+}
+
+.info h2 {
+    font-size: 47px;  
+}
+
+.info p{
+    font-size: 12px;
+}
+}
+
+/* mobile screen size */
+
+@media screen and (max-width: 600px) {
+header img{
+     width:50%;
+}
+
+main {
+    display: block;
+}
+
+main img {
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+    text-align: center;
+    margin: 2em auto;
+} 
+.info h2 {
+    font-size: 20px;
+}
+.info button {
+    width: 80%;
+}
+footer {
+    float: none;
+    text-align: center;
+
+}   
+}
+
+
+
+
+
+
